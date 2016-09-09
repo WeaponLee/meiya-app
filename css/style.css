@@ -1,0 +1,203 @@
+@charset "utf-8";
+/*TravelGuard start*/
+.wrap{max-width:640px;margin:0 auto;}
+.trtop{background-color:#19ABE6;padding:4% 0;}
+.trcontent .col-xs-12{background:url(../images/ad_7.png) no-repeat 3% center;background-size:8%;padding:4% 12%;border-bottom:1px solid #E2E2E2;}
+.trall{color:#0EA7E0;font-size:24px;}
+.trall1{font-size:22px;color:#666;}
+.trcontent1 .col-xs-12{background-image:url(../images/ad_5.png);}
+.trcontent2 .col-xs-12{background-image:url(../images/ad_6.png);}
+.trcontent3 .col-xs-12{background-image:url(../images/ad_2.png);}
+.trcontent4 .col-xs-12{background-image:url(../images/ad_3.png);}
+.trcontent5 .col-xs-12{background-image:url(../images/ad_4.png);}
+.trspace,.casespace{background-color:#F5F5F5;padding:2.5% 0;}
+.trcontents{font-size:20px;padding:4%;border-bottom:1px solid #E2E2E2;line-height:170%;}
+.trcenter,.trphone{border-top:1px solid #E2E2E2;}
+.trcenters li{font-size:21px;padding:0.9% 0;}
+.trcenters img{display:inline-block;}
+.trphone,.case1,.myreason{border-bottom:1px solid #E2E2E2;}
+.trphone p,.trphone strong{display:block;width:60%;margin:0 auto;text-align:center;}
+.trphone p{font-size:14px;}
+.trphone strong{font-size:30px;font-weight:normal;}
+.trphone,.trcenters{padding-top:20px;padding-bottom:20px;}
+.trbuy{padding:3% 0;}
+.trbuy a{height:50px;line-height:50px;background-color:#F49517;color:#fff;width:60%;display:block;margin:0 auto;text-align:center;font-size:20px;}
+@media (max-width:480px){
+.trbuy a{height:40px;line-height:40px;font-size:16px;}
+.trphone p{font-size:14px;}
+.trphone strong{font-size:26px;}
+.trphone,.trcenters{padding-top:15px;padding-bottom:15px;}
+}
+@media (max-width:375px){
+.trbuy a{height:35px;line-height:35px;}	
+.trphone p{font-size:12px;}
+.trphone strong{font-size:20px;}
+.trphone,.trcenters{padding-top:12px;padding-bottom:12px;}
+}
+/*TravelGuard end*/
+.sidebar{display:none;background-color:#373B47;width:40%;height:100%;position:fixed;top:0;left:0;}
+.close{position:absolute;top:0;right:0;}
+.close img:hover{cursor:pointer;}
+.sidebar a{color:#fff;}
+.sidebar li a{padding:3%;border-bottom:1px solid #64656A;display:block}
+.sidebarL{background-color:#fff;}
+/*sideNav end*/
+.casespace,.bdplan{padding:4%;color:#00A3E6;}
+.casespace .col-xs-5{text-align:right;}
+.casespace h1,.casespace,.bdplan{font-size:24px;font-weight:normal;}
+.casebanner img,.bdpic img{border:0;}
+.case1{background-color:#fff;}
+.case1fon,.bdp2,.myreason{color:#686868;}
+.case2,.bdp1{font-size:22px;}
+.bar{background:url(../images/nav-line.png) no-repeat;}
+.trtop .col-xs-4 a{background:url(../images/AIG.png) no-repeat center;margin:0 auto;}
+.trtop .col-xs-4 a,.bar{width:137px;height:73px;display:block;background-size:100%;}
+/*case end*/
+.bdp2,.collect{font-size:20px;}
+.island-main .row,.happy-main .row,.shenzhou-main .row,.perfect-main .row,.country-main .row{margin-bottom:40px;}
+.island1{
+transform:rotate(8deg);
+-ms-transform:rotate(8deg);
+-moz-transform:rotate(8deg);
+-webkit-transform:rotate(8deg);
+-o-transform:rotate(8deg); 		
+}
+.island2{
+transform:rotate(22deg);
+-ms-transform:rotate(22deg);
+-moz-transform:rotate(22deg);
+-webkit-transform:rotate(22deg);
+-o-transform:rotate(22deg); 			
+}
+.island3{
+transform:rotate(-12deg);
+-ms-transform:rotate(-12deg);
+-moz-transform:rotate(-12deg);
+-webkit-transform:rotate(-12deg);
+-o-transform:rotate(-12deg); 			
+}
+.island4{
+transform:rotate(-6deg);
+-ms-transform:rotate(-6deg);
+-moz-transform:rotate(-6deg);
+-webkit-transform:rotate(-6deg);
+-o-transform:rotate(-6deg); 			
+}
+.island5{
+transform:rotate(12deg);
+-ms-transform:rotate(12deg);
+-moz-transform:rotate(12deg);
+-webkit-transform:rotate(12deg);
+-o-transform:rotate(12deg); 			
+}
+.island-main{background:url(../images/bg2_02.jpg);}
+.happy-main{background:url(../images/bg4_02.jpg);}
+.shenzhou-main{background:url(../images/bg5_02.jpg);}
+.perfect-main{background:url(../images/bg3_02.jpg);}
+.country-main{background:url(../images/bg6_02.jpg);}
+.island-main,.happy-main,.shenzhou-main,.perfect-main,.country-main{padding-top:17px;padding-bottom:17px;overflow:hidden;}
+/*宝岛游踪 end*/
+.myreason span{border-left:6px solid #44BCFB;padding-left:1%;}
+.myinfor{line-height:120%;}
+/*美亚旅行险介绍页 end*/
+.region{ background:url(../images/bg_1.png) no-repeat;background-size:100%; position:relative;height:1000px;}
+.region .details{ text-align:center;  border-radius:55%;color:#fff; position:relative;}
+.region .details span{ display:inline-block; position:absolute;width:80px; height:30px;line-height:30px;border-radius:5px;}
+.region .details span a{color:#FFF;}
+.region .details img{ width:100%; margin-bottom:7%;}
+.region .details_one{max-width:220px;background:#45BCFC;max-height:220px;height:220px;padding:5px 2px 5px 5px;position:absolute;top:68%;left:18%;}
+.region .details_one span{bottom:-20%;left:30%; background:#45BCFC;}
+.region .details_two{max-width:258px;background:#E64963;max-height:258px;height:258px;padding:5px 5px 5px 5px;position:absolute;top:55%;right:8%;}
+.region .details_two span{bottom:-20%;left:33%; background:#E64963;}
+.region .details_thr{max-width:172px;background:#00A03F;max-height:172px;height:172px;padding:5px 5px 5px 4px;position:absolute;top:48%;left:8%;}
+.region .details_thr span{bottom:40%;left:110%; background:#00A03F;}
+.region .details_for{max-width:215px;background:#F38B02;max-height:215px;height:215px;padding:5px 5px 5px 5px;position:absolute;top:20%;right:9%;}
+.region .details_for span{bottom:-20%;left:30%; background:#F38B02;}
+.region .details_five{max-width:277px;background:#0065B3;max-height:277px;height:277px;padding:5px 5px 5px 5px; position:absolute;top:4%;left:8%;}
+.region .details_five span{bottom:-25%;left:31%; background:#0065B3;}
+@media (max-width:640px){
+.region{ height:900px;}
+.region .details_one{width:190px; height:190px;top:59%;}
+.region .details_two{width:228px; height:228px;top:48%;}
+.region .details_thr{width:142px; height:142px;top:38%;}
+.region .details_for{width:185px; height:185px;}
+.region .details_five{width:237px; height:237px;}
+}
+@media (max-width:560px){
+.region{ font-size:13px;height:780px;}
+.region .details_one{width:150px; height:150px;top:60%;}
+.region .details_one span{bottom:-35%;left:23%;}
+.region .details_two{width:178px; height:178px;top:48%;}
+.region .details_two span{bottom:-35%;left:27%;}
+.region .details_thr{width:102px; height:102px;top:41%;}
+.region .details_for{width:145px; height:145px;}
+.region .details_for span{bottom:-35%;left:23%;}
+.region .details_five{width:197px; height:197px;}
+}
+@media (max-width:480px){
+.region{ font-size:12px; height:600px;}
+.region .details span{ width:60px; height:26px; line-height:26px;}
+.region .details_one{width:100px; height:100px;top:70%;}
+.region .details_one span{bottom:-35%;left:23%;}
+.region .details_two{width:118px; height:118px;top:57%;right:11%;}
+.region .details_two span{bottom:-35%;left:27%;}
+.region .details_thr{width:92px; height:92px;top:45%;left:14%;}
+.region .details_for{width:105px; height:105px;top:18%;right:17%;}
+.region .details_for span{bottom:-35%;left:18%;}
+.region .details_five{width:137px; height:137px;top:5%;left:12%;}
+}
+@media (max-width:375px){
+.region{height:480px;}
+.region .details_one{top:68%;}
+.region .details_two{top:57%;}
+.region .details_thr{top:44%;}
+.region .details_for{top:26%;right:4%;}
+.region .details_five{top:6%;left:15%;}
+}
+/*美亚旅行险介绍页 end*/
+@media (max-width:640px){
+.trcontent .col-xs-12{padding:4% 13%;}
+.trall,.casespace,.casespace h1{font-size:21px;}
+.trall1{font-size:19px;color:#666;}
+.trcontents{font-size:18px;padding:4%;}
+.trcenters li,.case2,.bdp1{font-size:20px;}
+.bdp2,.collect{font-size:17px;}
+.sidebar li a{padding:5%;}
+}
+@media (max-width:560px){
+.trcontents{font-size:16px;padding:3%;}
+.trcenters li{font-size:19px;}
+.bdp2,.collect{font-size:16px;}
+.trtop .col-xs-4 a,.bar{width:120px;height:65px;}
+.trcenters img{width:25px;height:25px;}
+}
+@media (max-width:480px){
+.trcontent .col-xs-12{padding:4% 14%;}
+.trall,.casespace,.casespace h1{font-size:19px;}
+.trall1{font-size:17px;color:#666;}
+.trcontents{font-size:14px;padding:2%;}
+.trcenters li,.case2,.bdp1{font-size:18px;}
+.sidebar li a{padding:8%;}
+.bdp2,.collect{font-size:15px;}
+.trtop .col-xs-4 a,.bar{width:110px;height:58px;}
+.trcenters img{width:23px;height:23px;}
+}
+@media (max-width:420px){
+.trcontent .col-xs-12{padding:4% 16%;}
+.trall,.casespace,.casespace h1{font-size:17px;}
+.trall1,.case2,.bdp1{font-size:15px;}
+.trcontents{font-size:13px;padding:2%;}
+.sidebar li a{padding:9%;}
+.bdp2,.collect{font-size:14px;}
+.trtop .col-xs-4 a,.bar{width:100px;height:55px;}
+.trcenters img{width:20px;height:20px;}
+}
+@media (max-width:375px){
+.trcontent .col-xs-12{padding:4% 17%;}
+.trcontents{font-size:12px;}
+.trcontents .col-xs-6{padding-top:3%;}
+.trcenters li,.case2,.bdp1{font-size:16px;}
+.sidebar{font-size:14px;}
+.trtop .col-xs-4 a,.bar{width:90px;height:50px;}
+}
+.az_style h1,.az_style li{padding:1.5% 2.5%;}
